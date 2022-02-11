@@ -9,7 +9,6 @@ function solution(a) {
   let result = "";
   for (let i = 1; i <= a; i++) {
     result += i + "\n";
-    console.log(result);
   }
-  // console.log(result);
+  console.log(result);
 }
