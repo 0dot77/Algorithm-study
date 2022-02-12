@@ -5,7 +5,7 @@ const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
 let input = fs.readFileSync(filePath).toString().split("\n");
 solution(+input[0]);
 
-//별찍기 2
+// 별찍기 2
 // 출력을 ''*4 + *
 // 공백을 더해서 출력을 하려면 어떻게 해야할까?
 
